@@ -8,7 +8,7 @@ function sj_page_columns($columns) {
 	unset($columns['author']); 
 	unset($columns['date']); 
 	unset($columns['comments']); 	
-	$columns['template'] = 'Template';
+	$columns['template'] = 'Page Template';
 	$columns['last_updated'] = 'Last Updated'; 	  
     return $columns;
 }

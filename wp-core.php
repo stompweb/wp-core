@@ -6,11 +6,9 @@ Author URI: http://www.stomptheweb.co.uk
 Version: 0.1
 */
 
-/*
-|--------------------------------------------------------------------------
-| CONSTANTS
-|--------------------------------------------------------------------------
-*/
+/**
+ * Constants
+ */
 
 // Plugin folder url
 if(!defined('SJ_PLUGIN_URL')) {
@@ -25,11 +23,9 @@ if(!defined('SJ_PLUGIN_FILE')) {
 	define('SJ_PLUGIN_FILE', __FILE__);
 }
 
-/*
-|--------------------------------------------------------------------------
-| SETUP
-|--------------------------------------------------------------------------
-*/
+/**
+ * Includes
+ */
 
 require_once dirname( __FILE__ ) . '/includes/admin.php';
 require_once dirname( __FILE__ ) . '/includes/functions.php';

@@ -47,7 +47,7 @@ function sj_login_logo() {
 
     <style type="text/css">
         h1 a { 
-        	background-image: url(<?php echo $logo; ?>)!important; 
+        	background-image: url('<?php echo $logo; ?>')!important; 
        	}
     </style>'
 <?php }
